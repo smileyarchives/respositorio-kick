@@ -1,0 +1,103 @@
+:root{
+    --header-color: #E9AB54;
+    --main-color: #ea8c07; 
+    --content-color: #ffffff;
+}
+body{
+    background-color: #deb986;
+}
+table{
+    background-color: #ffffff;
+    margin: auto;
+    width: 600px;
+}
+#header{
+    background-color: var(--header-color);
+}
+#header img{
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+}
+#nav_box{
+    border-top: 5px solid var(--main-color);
+    background-color: var(--header-color);
+    padding: 0px;
+    margin: 0px;
+    height: 40px;
+}
+#nav_box ul, #nav_social ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+#nav_box li, #nav_social li{
+    float: left;
+}
+#nav_box a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.ativo{
+    background-color: var(--main-color);
+    color: #ffffff;
+}
+#nav_box li a:hover:not(.ativo){
+    background-color: var(--main-color);
+    color: #ffffff;
+    transition: 0.4s;
+}
+#bg_img img{
+    width: 100%;
+}
+.members{
+    display: flex;
+    flex-direction: column;
+}
+.article, .members{
+    padding: 5px;
+}
+.article h2, .box_memb1 h2, .box_memb2 h2, .box_memb3 h2, .box_memb4 h2, .box_memb5 h2{
+    border-top: 5px solid var(--main-color);
+    background-color: var(--header-color);
+    padding: 5px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.article p, .members p{
+    padding: 0 5px 0 5px;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#footer{
+    border-top: 5px solid var(--main-color);
+    background-color: var(--header-color);
+    text-align: center;
+    height: 40px;
+}
+.img-box-mem img{
+    padding-bottom: 74px;
+    width: 100px;
+    height: 100px;
+}
+#nav_social img{
+    width: 50px;
+    height: auto;
+}
+#nav_social img:hover{
+    opacity: 0.8;
+}
+#nav_social #logo_ig{
+    width: 40px;
+    height: auto;
+    padding-top: 4px;
+}
+#nav_social ul{
+    display: flex;
+    justify-content: center;
+}
