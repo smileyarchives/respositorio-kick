@@ -1,0 +1,51 @@
+.entradaNotasAluno{
+    background-color: #7fffd4;
+    color: #1c815f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto; margin-bottom: 20px;
+    width: 300px; height: 180px;
+    border-radius: 10px;
+    padding: 20px 0 20px 0;
+}
+.notas{
+    margin: 10px;
+}
+input{
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+}
+button{
+    width: max-content;
+    color: #ffffff;
+    background-color: #1c815f;;
+    padding: 7px;
+    border-radius: 7px;
+    border: none;
+    text-transform: uppercase;
+    align-self: flex-end;
+    margin: 10px 33px;
+}
+button:hover{
+    background-color: #ffffff;
+    color: #1c815f;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#visualizarMedia{
+    width: 270px; height: 50px;
+    margin: auto;
+    display: none;
+    background-color: #b6fce5;
+    padding: 15px;
+    border-radius: 10px;
+    color: #132720;
+}
+#aprov{
+    color: green;
+}
+#rep{
+    color: red;
+}
