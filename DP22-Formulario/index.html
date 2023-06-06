@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="/cad.js"></script>
+    <title>Cadastro</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="box-form">
+                <div class="box-title">
+                    <h2>Novo usuário?</h2>
+                    <p>Use o formulário abaixo para criar sua conta.</p>
+                    <span id="obrig-t" style="display: none;">Alguns campos obrigatórios não foram preenchidos *</span>
+                </div>
+                
+                <form action="">
+                    <div class="box-line">
+                        <span>
+                            <label for="userName">Nome<span class="obrig">*</span></label>
+                            <input type="text" id="userName" required>
+                        </span>
+                        <span>
+                            <label for="userLastName">Sobrenome<span class="obrig">*</span></label>
+                            <input type="text" id="userLastName" required>
+                        </span>
+                    </div>
+                    <div class="box-line">
+                        <span>
+                            <label for="userEmail">Email<span class="obrig">*</span></label>
+                            <input type="email" id="userEmail" required>
+                        </span>
+                        <span>
+                            <label for="userPhone">Telefone<span class="obrig">*</span></label>
+                            <input type="tel" id="userPhone" required>
+                        </span>
+                    </div>
+                    <div class="box-line">
+                        <span>
+                            <label for="userPassword">Senha<span class="obrig">*</span></label>
+                            <input type="password" id="userPassword" required>
+                        </span>
+                        <span>
+                            <label for="userConfirmPassword">Confirme senha<span class="obrig">*</span></label>
+                            <input type="password" id="userConfirmPassword" required>
+                        </span>
+                    </div>
+                    <div class="box-gender">
+                        <span>
+                            <label>Gênero</label>
+                            
+                            <input type="radio" name="userGender" value="female"> Feminino
+                            <input type="radio" name="userGender" value="male"> Masculino 
+                            <input type="radio" name="userGender" value="other"> Outro 
+                            <input type="radio" name="userGender" value="notApp" checked> Não informar
+                        </span>
+                    </div>
+                    <div class="box-line">
+                        <span>
+                            <input type="submit" onclick="register()" value="Cadastrar" id="buttonForm">
+                        </span>
+                    </div>
+                </form>
+            </div>
+            <div class="box-image">
+                <img src="/img/image.jpg" alt="">
+                <p>Já possui uma conta? <span><a href="#">Entre Agora</a></span></p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
