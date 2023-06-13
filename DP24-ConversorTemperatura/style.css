@@ -1,0 +1,41 @@
+body{
+    background-color: #7fffd4;
+}
+.container{
+    background-color: #ffffff;
+    width: max-content;
+    margin: auto; padding: 15px;
+    border-radius: 10px;
+}
+h3{
+    text-align: center;
+}
+input{
+    display: block;
+    margin-bottom: 15px;
+    width: 240px; height: 25px;
+    border-radius: 10px;
+    border: 1px solid #808080;
+}
+select{
+    border-radius: 10px;
+    width: 247px; height: 28px;
+    border: 1px solid #808080;
+    color: #808080;
+}
+input[type="submit"]{
+    background-color: #7fffd4;
+    margin-top: 15px; 
+    width: 248px; height: 28px;
+    text-transform: uppercase;
+}
+input[type="submit"]:hover{
+    background-color: #b9ffe8;
+    cursor: pointer;
+}
+#convertido{
+    border-radius: 5px;
+    text-align: center;
+    color: #114936;
+    font-weight: bold;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Conversor de Temperatura</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Conversor de Temperatura</h3>
+        <input type="text" id="gCelsius" placeholder="° Celsius">
+        <select id="unidade">
+            <option value="fahrenheit">F - Fahrenheit</option>
+            <option value="kelvin">K - Kelvin</option>
+        </select>
+        <input type="submit" value="Calcular" onclick="converterTemperatura()">
+        <div id="convertido"></div>
+    </div>
+</body>
+</html>
