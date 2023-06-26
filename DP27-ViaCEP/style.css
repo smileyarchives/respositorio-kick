@@ -1,0 +1,40 @@
+body{
+    background-color: #e25454;
+}
+.container{
+    background-color: #ffffff;
+    margin: auto; padding: 15px;
+    border-radius: 10px;
+    width: max-content;
+}
+h3{
+    text-align: center;
+}
+.content label{
+    display: block;
+    margin-bottom: 5px;
+}
+.content input[type="text"]{
+    width: 240px; height: 25px;
+    border: 1px solid #e25454;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+button{
+    background-color: #e25454;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    width: 248px; height: 30px; 
+    margin-top: 10px;
+    transition: 0.4s;
+}
+button:hover{
+    background-color: #df9999;
+    transition: 0.4s;
+}
+.mensagem{
+    color: #ff0000;
+    margin-top: 10px;
+}

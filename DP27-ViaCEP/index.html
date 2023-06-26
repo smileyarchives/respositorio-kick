@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ViaCEP</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.7.0.js"></script>
+    <script src="jquery.mask.js"></script>
+    <script src="form.js"></script>
+    <script src="window.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h3>ViaCEP</h3>
+        <div class="content">
+            <label>Nome</label>
+            <input type="text" id="nome" required>
+        </div>
+        <div class="content">
+            <label>Sobrenome</label>
+            <input type="text" id="sobrenome" required>
+        </div>
+        <div class="content">
+            <label>Email</label>
+            <input type="text" id="email" required>
+        </div>
+
+        <button onclick="proximo()">Próximo</button>
+        <p id="mensagem" class="mensagem"></p>
+    </div>
+</body>
+</html>
