@@ -1,1 +1,1 @@
-# respositorio-kick
+# repositorio-kick
