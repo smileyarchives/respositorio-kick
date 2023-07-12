@@ -1,0 +1,66 @@
+body{
+    background-color: #b3606e;
+}
+nav, .main{
+    text-transform: uppercase;
+}
+#navbarNav{
+    /* display: flex; */
+    justify-content: center;
+}
+.main{
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-left: 4rem; margin-right: 4rem;
+    padding-bottom: 1rem;
+}
+.main #img-bg{
+    border-radius: 5px 5px 0 0;
+}
+.main h4{
+    color: #b3606e;
+    font-size: 15px;
+    padding-left: 4.4rem;
+    padding-top: 1.5rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container:hover :not(:hover){
+    opacity: 0.5;
+}
+.container a{
+    text-decoration: none;
+}
+.card{
+    text-align: justify;
+    width: 12rem;
+    margin: 10px;
+}
+.card:hover{
+    scale: 1.02;
+}
+hr{
+    margin-left: 4.4rem; margin-right: 4.4rem;
+    border: 2px solid #b3606e;
+}
+.circle-img{
+    width: 100px; height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.list-group{
+    margin-left: 4.4rem; margin-right: 4.4rem;
+}
+.list-group-item h6{
+    color: #b3606e;
+}
+.btt-arrow{
+    text-decoration: none;
+    background: none;
+    border: none;
+    padding: 0; margin-left: 15px;
+    font-size: 2.5rem;
+}
